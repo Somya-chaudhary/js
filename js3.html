@@ -1,0 +1,24 @@
+<script>
+    function call()
+    {
+    //var c=parseInt(txt1.value)+parseInt(txt2.value)
+    var a= parseInt(txt1.value)
+    var b= parseInt(txt2.value)
+    var c= a+b
+    //result.innerHTML="<font color='red' size='20'>Total:"+c+" </font>"
+    //result.innerHTML=`<font color='red' size='20'>Total:${c}</font>`
+    result.innerHTML=`<font color='red' size='20'>Sum of ${a} and ${b} is ${c}</font>`
+    }
+</script>
+
+<html>
+    <body>
+    
+        <input type="text" id="txt1"> <br><br>
+        <input type="text" id="txt2"> <br><br>
+        <input type="button" value="click here" onclick="call()"> <br> <br>
+        <div id="result"> See here...</div>
+        </body>
+</html>
+
+
